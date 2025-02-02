@@ -257,3 +257,166 @@ body{
     text-align: left;
     margin-top : 30px;
 }
+#quote{    
+    width : 1400px;
+    height : auto;
+    margin-top : 32px;
+    margin-bottom: 80px;
+    gap : 32px;
+    padding : 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background: url('assets/quote-bg.png') no-repeat;
+    background-position: 24px 48px;
+    background-size: auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#quote .parent{
+    display : flex;
+    flex-direction: column;   
+}
+#quote .name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+#quote .info{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+#recent-news{
+    padding-top: 380px;
+    width : 1400px;
+    height : auto;
+    margin : 72px;
+    gap : 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    
+}
+#recent-news .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top : 30px; 
+}
+#recent-news p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap:24px;
+}
+
+
+.news{
+width: 1280px;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+padding: 48px;
+margin: 24px 0px;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+}
+
+.news .earth img{
+    width: 408px;
+    height: 306px;
+    margin: 0  32px;
+    border-radius: 24px;
+    
+}
+.news .subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.content{
+    width: 744px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px 0;
+    
+}
+.aljazeera{
+    width: 134px;
+    height: 40;
+
+    
+}
+.time{
+    display: inline;
+}
+.news .btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 139px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 13px 26px 13px 26px;
+    border : none;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+.news2{
+    width: 1280px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 48px;
+    margin: 24px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    }
