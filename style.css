@@ -3,6 +3,7 @@
 *{
     margin : 0px;
     padding :0;
+    font-family: Fira Sans;
     
 }
 body{
@@ -69,6 +70,7 @@ body{
     line-height: 12px;
     letter-spacing: 0%;
     text-align: center;
+    border : none;
 }
 
 #banner .right img{
@@ -146,6 +148,13 @@ body{
     background: rgb(255, 194, 57);
 }
 
+#pillar{
+    width : 1400px;
+    height : auto;
+    margin : 72px;
+    gap : 32px;
+
+}
 #vision .title{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -181,4 +190,70 @@ body{
 .cardset img{
     width :50px;
     height: auto;
+}
+
+#pillar{
+    width : 1400px;
+    height : 300px;
+    margin : 72px;
+    gap : 32px;
+}
+.pillar-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height : auto;
+    flex-direction: row;
+    margin-top: 45px;
+}
+.pillars{
+    width: 302px;
+    height: auto;
+    padding : 20px;
+    border-radius : 10px;
+    text-align : left;
+    padding : 32px;
+    display : flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.pillars img{
+    width :50px;
+    height: auto;
+}
+#pillar .pillar-container .topic{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+#pillar p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap:24px;
+
+}
+#pillar .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top : 30px;
 }
