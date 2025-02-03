@@ -269,7 +269,7 @@ body{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     background: url('assets/quote-bg.png') no-repeat;
-    background-position: 24px 48px;
+    background-position: 24px 24px;
     background-size: auto;
     text-align: center;
     position: relative;
